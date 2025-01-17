@@ -100,5 +100,13 @@
         symbol = "tree_sitter_query",
       },
     },
+    sql = {
+     extensions = ["sql"],
+     grammar.source.git = {
+      git = "https://github.com/DerekStride/tree-sitter-sql/",
+      branch = "gh-pages",
+      rev = "b9d109588d5b5ed986c857464830c2f0bef53f18",
+     },
+    }
   },
 }
