@@ -95,6 +95,9 @@ fn input_output_tester() {
 
     #[cfg(feature = "tree_sitter_query")]
     io_test("tree_sitter_query.scm");
+
+    #[cfg(feature = "sql")]
+    io_test("sql.sql");
 }
 
 #[test]
@@ -130,6 +133,9 @@ fn coverage_tester() {
 
     #[cfg(feature = "tree_sitter_query")]
     coverage_test("tree_sitter_query.scm");
+
+    #[cfg(feature = "sql")]
+    coverage_test("toml.toml");
 }
 
 // Test that our query files are properly formatted
