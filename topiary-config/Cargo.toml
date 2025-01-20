@@ -64,5 +64,4 @@ all = [
   "rust",
   "toml",
   "tree_sitter_query",
-  "sql",
 ]
